@@ -1,0 +1,43 @@
+.result-card {
+    display: flex;
+}
+
+.result-card .poster-wrapper img,
+.filler-poster {
+    width: 200px;
+    height: 300px;
+    background-color: #dbdada;
+    border-radius: 5px;
+    margin-right: 15px;
+    display: block;
+    color: transparent;
+}
+
+.result-card .info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 2rem;
+}
+
+.result-card .info .title {
+    font-size: 2rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin: 0;
+}
+
+.result-card .info .release_date {
+    font-size: 1.75rem;
+    color: var(--primary);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.result-card .info .controls {
+    display: flex;
+}
+
+.result-card .info .controls > button:first-child {
+    margin-right: 10px;
+}
