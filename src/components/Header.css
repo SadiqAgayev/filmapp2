@@ -1,0 +1,47 @@
+header {
+    background-color: var(--primary);
+}
+
+header > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+}
+
+header > .container > .inner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .brand > a {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+header .brand > a:hover {
+    opacity: .7;
+}
+
+header .nav-links {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header .nav-links li:first-child {
+    margin-right: 30px;
+}
+
+header .nav-links > li > a,
+header .nav-links > li {
+    color: white;
+    text-decoration: none;
+}
