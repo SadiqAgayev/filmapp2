@@ -1,0 +1,13 @@
+.movie-card {
+    width: 100%;
+    border: 5px solid red;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.movie-card img {
+    width: 100%;
+    display: block;
+}

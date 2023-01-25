@@ -20,6 +20,10 @@
     column-gap: 2rem;
 }
 
+.result-card .info > .header {
+    width: 60%;
+}
+
 .result-card .info .title {
     font-size: 2rem;
     color: var(--primary);
@@ -36,6 +40,7 @@
 
 .result-card .info .controls {
     display: flex;
+    width: 40%;
 }
 
 .result-card .info .controls > button:first-child {
